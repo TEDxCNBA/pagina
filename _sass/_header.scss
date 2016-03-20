@@ -1,0 +1,18 @@
+.header {
+	border-bottom: 2px solid $grey-color-light;
+	padding: $spacing-unit / 3.5;
+}
+
+.logo {
+	float: center;
+	vertical-align: center;
+	text-align: center;
+	img {
+		height: 35px;
+		vertical-align: middle;
+	}
+}
+
+.menu-toggle {
+	float: right;
+}
