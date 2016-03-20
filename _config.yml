@@ -10,7 +10,7 @@ title: TEDxJoven@CNBA
 email: TEDxJovenCNBA@gmail.com
 description: Los charlas TED son formas de transmitir ideas que potencien al público a producir un cambio, a generar nuevas ideas, a despertar pasiones, a transformar lo que nos rodea, a plantearse nuevos paradigmas, a soñar, a poner en acción nuestra creatividad e imaginación, en fin, a creer en nosotros mismos.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://tedxjovencnba.com" # the base hostname & protocol for your site
+url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site
 twitter_username: TEDxJovenCNBA
 
 # Build settings

@@ -1,11 +1,19 @@
-<nav class="header">
-	<div class="container">
-		<div class="flex flex--around">
-			<div class="col col--12">
-				<a href="{{ site.url }}" class="logo "><img src="/assets/color-one-line.svg" alt="TEDxJoven@CNBA"></a>
+<div class="header">
+	<div class="flex flex--around">
+		<div class="col col--12">
+			<a href="{{ site.url }}" class="logo"><h1 class="screen-reader">TEDxJoven@CNBA</h1></a>
 
-				<a href="" class="main-button menu-toggle">Menu</a>
-			</div>
+			<a href="" class="main-button menu-toggle" id="menu-toggle">Menu</a>
+
+			<nav class="main-menu" id="main-menu">
+				<ul>
+					<li><a href="{{ site.url }}">Inicio</a></li>
+					<li><a href="/evento.html">Evento</a></li>
+					<li><a href="/equipo.html">Equipo organizador</a></li>
+					<li><a href="/blog.html">Blog</a></li>
+					<li><a href="/contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
 		</div>
 	</div>
-</nav>
+</div>
