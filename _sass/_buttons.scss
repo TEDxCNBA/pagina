@@ -1,0 +1,26 @@
+@mixin button($bg) {
+	background-image: -webkit-linear-gradient($bg 0%, darken($bg, 10%) 100%);
+	background-image: -o-linear-gradient($bg 0%, darken($bg, 10%) 100%);
+	background-image: linear-gradient($bg 0%, darken($bg, 10%) 100%);
+	padding: 7px 20px;
+	border: 1px solid darken(darken($bg, 10%), 8%);
+	border-radius: 3px;
+	font-weight: bold;
+	color: darken($bg, 65%);
+	text-shadow: 0 1px 0 #fff;
+	transition: background-image 1s ease;
+
+	&:hover {
+		background-image: -webkit-linear-gradient(darken($bg, 2%) 0%, darken(darken($bg, 10%), 2%) 100%);
+		background-image: -o-linear-gradient(darken($bg, 2%) 0%, darken(darken($bg, 10%), 2%) 100%);
+		background-image: linear-gradient(darken($bg, 2%) 0%, darken(darken($bg, 10%), 2%) 100%);
+	}
+}
+
+.grey-button {
+	@include button(#ECECEC);
+}
+
+.main-button {
+	@extend .grey-button;
+}
