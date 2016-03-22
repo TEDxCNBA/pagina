@@ -1,25 +1,24 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-03-12 19:30:46 -0300
-categories: jekyll update
+title: "Dear TEDsters… a note on the first anniversary of my talk"
+date: 2016-03-19 10:54:00 -0300
+categories: TEDTalk community speaker
+image: /assets/post-img/monica-lewinsky.jpg/
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+One year ago today, at TED2015, Monica Lewinsky gave a powerful talk about bullying, shaming and becoming a more empathetic society. She sends this note to our community on her TED-iversary…
 
-Jekyll also offers powerful support for code snippets:
+Dear TEDsters:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+One year ago today, with the hauntingly beautiful TED2015 theme song playing, I nervously walked out to The Red Circle in front of many of you and shared my story – The Price of Shame. You created the magic in the room for that to happen.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+That day, I was just grateful I didn’t pass out on stage. A year later, my gratitude has only grown wider and deeper.  I have been privileged to hear from many people about how the talk resonated with them. It’s also shown me that too many of us are suffering, and I hope to continue to work toward changing that.  (Please let me know if you have any ideas).
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Personally, the most meaningful experience has been to learn from social media how students and teachers watch and discuss the talk in school. It’s an unimaginable pivot, as for many years I fretted about what would happen when my friends’ kids learned about “That Woman” in history class. But the most surprising comment came from the maître d’ of my neighborhood Chinese restaurant, who had not uttered a word to me in 15 years, until the day he said, “I liked your TED Talk.”
+
+My family and I thank you all for your compassion and support.
+
+With love + gratitude,
+Monica
+
+PS: I thought you might get a chuckle from this – especially those of you who are parents. Shortly after the public release of the speech, my mom texted: “The talk crossed 100,000 views… and only 6 are from me!”

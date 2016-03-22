@@ -43,7 +43,7 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$serif-font-family: 'Merriweather', serif;
+$serif-font-family: Georgia, serif;
 
 $spacing-unit:     30px;
 
@@ -62,5 +62,6 @@ $grey-color-dark:  darken($grey-color, 25%);
         "header",
         "hero",
         "buttons",
-        "typography"
+        "typography",
+        "blog"
 ;
