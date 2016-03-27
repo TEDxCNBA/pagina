@@ -10,3 +10,66 @@ hero-bg: /assets/bg-colegio.png/
 ---
 
 {% include hero.html %}
+
+<section class="home-blog-posts">
+	<div class="container">
+		<h2>Últimas publicaciones</h2>
+		<ul class="posts-list flex">
+			{% for post in site.posts limit: 2 %}
+				<li class="post-preview col col--12 col__md--6">
+					<div class="flex divisor">
+						<div class="col col--12">
+							<div class="flex">
+								<a href="{{ post.url }}" class="post-preview-header col col--7">
+									<span class="categories">
+										{{ post.categories | join: ", " | capitalize }}
+									</span>
+									<h3 class="post-title">{{ post.title }}</h3>
+									<time>
+										{{  post.date | date: '%-d' }} de
+											{% assign m = post.date | date: '%-m' %}
+											{% case m %}
+												{% when '1' %}enero
+												{% when '2' %}febrero
+												{% when '3' %}marzo
+												{% when '4' %}abril
+												{% when '5' %}mayo
+												{% when '6' %}junio
+												{% when '7' %}julio
+												{% when '8' %}agosto
+												{% when '9' %}septiembre
+												{% when '10' %}octubre
+												{% when '11' %}noviembre
+												{% when '12' %}diciembre
+											{% endcase %}
+										de
+										{{  post.date | date: '%Y' }}
+									</time>
+								</a>
+								<a href="{{ post.url }}" class="col col--5 post-preview-image" style="background-image:url({{ site.url }}{{ site.baseurl }}{{ post.image }})"></a>
+							</div>
+						</div>
+						<p class="col col--12">{{ post.content | strip_html | truncatewords:30}}</p>
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
+
+<section class="social-networks">
+	<div class="container">
+		<h2>Seguinos en Facebook y Twitter</h2>
+		<div class="flex">
+			<div class="col col--12 col__md--6">
+				<div class="social-container">
+					<a href="" class="button facebook-button">TEDxJovenCNBA en Facebook</a>
+				</div>
+			</div>
+			<div class="col col--12 col__md--6">
+				<div class="social-container">
+					<a href="" class="button twitter-button">TEDxJovenCNBA en Twitter</a>
+				</div>
+		</div>
+	</div>
+</section>

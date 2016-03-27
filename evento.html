@@ -2,3 +2,40 @@
 layout: default
 body-class: evento
 ---
+<div class="container evento-content">
+	<div class="evento-desc">
+		<div class="flex flex--center">
+			<div class="col col--12 col__md--9">
+				<h3>¡Primer TEDx del CNBA!</h3>
+				<p>Los charlas TED son formas de transmitir ideas que potencien al público a producir un cambio, a generar nuevas ideas, a despertar pasiones, a transformar lo que nos rodea, a plantearse nuevos paradigmas, a soñar, a poner en acción nuestra creatividad e imaginación, en fin, a creer en nosotros mismos.</p>
+				<p>Desde el Colegio Nacional de Buenos Aires  (CNBA para los amigos)  pensamos que los jóvenes también tenemos mucho para compartir y que las ideas inspiradoras pueden surgir a muy temprana edad. Sin ir más lejos, de ahí la intención de sumarnos al movimiento TEDx. Y no solo con el objetivo de unirnos al grupo de colegios secundarios del país en realizar este tipo de evento, sino que también queremos ayudar a otros a que se sumen.</p>
+				<p>¿Por qué? Porque creemos que no existen barreras a la hora de compartir una idea y queremos alentar a otros a hacerlo. Más allá de la situación económica, social, política, geográfica, más allá de nuestro género o identidad sexual, de nuestras creencias, aspecto físico o edad, tenemos una voz y podemos crear nuestro propio espacio para ser escuchados. Entonces, ¿por qué no sumarse a la movida?</p>
+				<p>Te invitamos a empezar a soñar y transmitir tus ideas.</p>
+			</div>
+			<aside class="col col--12 col__md--3">
+				<h4>Ya abrimos las inscripciones</h4>
+				<p>¿Querés ser parte? Para participar por una entrada para el evento, completa <a href="https://docs.google.com/forms/d/1kTgCnFcA5welsp4dBHHXsxVKfgi57I_i-1pxfeO0fkU/viewform?c=0&w=1">este formulario</a>.</p>
+				<img src="{{ site.url }}{{ site.baseurl }}/assets/evento-foto.jpg/" alt="Foto de la X en el Colegio">
+			</aside>
+		</div>
+	</div>
+
+	<div class="oradores flex">
+		<h3 class="col col--12">Nuestros oradores</h3>
+		<div class="flex flex--center oradores-container">
+			{% for speaker in site.data.speakers limit:1%}
+			<div class="col col--12 col__md--3 orador">
+				<img src="{{ site.url }}{{ site.baseurl }}/assets/fotos-oradores{{ speaker.foto }}" alt="">
+				<h4>{{ speaker.nombre }}</h4>
+				<p>{{ speaker.perfil }}</p>
+			</div>
+			{% endfor %}
+			<!-- Borrar cuando hayan sido presentados todos los oradores -->
+			<div class="col col--12 col__md--3 orador orador-no-anunciado">
+				<img src="{{ site.url }}{{ site.baseurl }}/assets/fotos-oradores/orador-tba.jpg/" alt="">
+				<p>Se vienen nuevos oradores. ¡Estate atento a las redes sociales!</p>
+			</div>
+			<!-- Hasta acá -->
+		</div>
+	</div>
+</div>

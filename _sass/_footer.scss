@@ -1,0 +1,82 @@
+.que-es-ted {
+	background-color: #f3f3f3;
+	padding: $spacing-unit $spacing-unit $spacing-unit + 7px $spacing-unit;
+	text-align: center;
+	width: 100%;
+
+	h3 {
+		color: $grey-color-dark;
+		font-size: 1.4em;
+		margin: 0 0 0.1em 0;
+	}
+
+	p {
+		color: $grey-color;
+		font-size: 1.1em;
+		line-height: 1.5em;
+		margin: 0.2em 0 1em 0;
+	}
+
+	h3, p {
+		font-weight: 200;
+	}
+}
+
+.que-es-ted-content {
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.footer-container {
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.bottom-footer {
+	border-top: 2px solid $brand-color;
+	padding: $spacing-unit;
+
+	h3, li {
+		font-size: 0.9em;	
+	}
+
+	h3 {
+		color: $grey-color-dark;
+		margin: 1em 0 0 0;
+	}
+
+	li {
+		list-style-type: none;
+		color: $grey-color;
+		margin: $spacing-unit / 4;
+	}
+
+	.links-list {
+		margin: 0;
+		padding-left: 0.5em;
+	}
+}
+
+.footer-logo {
+	height: 50px;
+	width: 50px;
+	background-image: url("/assets/color-two-lines.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.final-footer {
+	display: block;
+	background-color: $grey-color-dark;
+	height: 3em;
+	color: white;
+	font-weight: 700;
+	font-size: 0.8em;
+	line-height: 3em;
+	padding: 0 $spacing-unit;
+	
+	a[href="#arriba"] {
+		float: right;
+	}
+
+}

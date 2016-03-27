@@ -16,6 +16,10 @@
 		background-image: -o-linear-gradient(darken($bg, 2%) 0%, darken(darken($bg, 10%), 2%) 100%);
 		background-image: linear-gradient(darken($bg, 2%) 0%, darken(darken($bg, 10%), 2%) 100%);
 	}
+
+	&:focus {
+		outline-offset: -2px;
+	}
 }
 
 .grey-button {
@@ -24,4 +28,16 @@
 
 .main-button {
 	@extend .grey-button;
+}
+
+.facebook-button {
+	@include button(#3B5998);
+	color: white;
+	text-shadow: none;
+}
+
+.twitter-button {
+	@include button(#55ACEE);
+	color: white;
+	text-shadow: none;
 }

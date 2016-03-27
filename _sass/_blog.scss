@@ -45,3 +45,14 @@
 	background-position: center center;
 	height: 100px;
 }
+
+.ver-archivo {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+
+	a {
+		width: 60%;
+		margin: 0 auto;
+	}
+}

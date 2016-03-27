@@ -159,7 +159,7 @@ $grid-width: ($columns * $column-width) + (($columns ) * $gutter-width);
 
 .container {
 
-    max-width: $grid-width; // Calculated from config
+    max-width: 950px; // Calculated from config
     margin: 0 auto;
     @include box-sizing;
 

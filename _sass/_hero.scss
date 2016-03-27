@@ -61,6 +61,17 @@ $hero-number-lg: 1080px;
 
 	h2 {
 		margin: 0.5em $spacing-unit 0 $spacing-unit;
+
+		&:before {
+			content: "Última publicación";
+			display: block;
+			// font-family: $serif-font-family;
+			// font-style: italic;
+			font-size: 16px;
+			font-weight: 200;
+			margin: 10px 0;
+
+		}
 	}
 
 	p {

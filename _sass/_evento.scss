@@ -1,0 +1,84 @@
+.evento-content {
+	h3 {
+		margin: 0 0 $spacing-unit / 2 0;
+		font-weight: 300;
+		font-size: 2em;
+	}
+}
+
+.evento-desc {
+	margin: $spacing-unit auto;
+}
+
+aside {
+	img {
+		max-width: 100%;
+		display: block;
+		margin: 0 auto 0.5em auto;
+	}
+
+	&:before {
+		background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAEAQMAAACTPww9AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAGUExURf///7+/v6NDdjkAAAAQSURBVAjXY2hgEGBQYHAAAAR4APGA2fwfAAAAAElFTkSuQmCC);
+		content: "";
+		display: block;
+		height: 8px;
+		width: 100%;
+	}
+	&:after {
+		background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAEAQMAAACTPww9AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAGUExURf///7+/v6NDdjkAAAAQSURBVAjXY2hgEGBQYHAAAAR4APGA2fwfAAAAAElFTkSuQmCC);
+		content: "";
+		display: block;
+		height: 8px;
+		width: 100%;
+	}
+
+	h4 {
+		margin: 0.5em 0;
+	}
+}
+
+.oradores {
+	&:before {
+			background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAEAQMAAACTPww9AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAGUExURf///7+/v6NDdjkAAAAQSURBVAjXY2hgEGBQYHAAAAR4APGA2fwfAAAAAElFTkSuQmCC);
+			content: "";
+			display: block;
+			height: 8px;
+			margin: $spacing-unit / 3 0;
+			width: 100%;
+	}
+}
+
+.orador {
+	border-radius: 3px;
+	background-color: $grey-color-light;
+	padding: 1em;
+	margin: $spacing-unit / 2;
+	text-align: center;
+
+	&:hover {
+		cursor: text;
+		background-color: darken($grey-color-light, 10%);
+	}
+
+	h4 {
+		font-size: 1.3em;
+		margin: $spacing-unit 0 $spacing-unit / 4 0;
+	}
+
+	img {
+		max-height: 130px;
+		display: block;
+		margin: 0 auto;
+		border-radius: 50%;
+	}
+}
+
+.oradores-container {
+	width: 100%;
+}
+
+.orador-no-anunciado {
+	p {
+		margin: $spacing-unit 0 $spacing-unit / 4 0;
+	}
+}

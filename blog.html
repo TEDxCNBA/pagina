@@ -9,7 +9,7 @@ hero-class: hero-blog
 
 <div class="container">
 	<ul class="posts-list flex">
-		{% for post in site.posts %}
+		{% for post in site.posts limit: 5 %}
 			<li class="post-preview col col--12 col__md--6">
 				<div class="flex divisor">
 					<div class="col col--12">
@@ -47,5 +47,8 @@ hero-class: hero-blog
 				</a>
 			</li>
 		{% endfor %}
+			<li class="ver-archivo col col--12 col__md--6">
+				<a href="" class="main-button">Ver todas las publicaciones</a>
+			</li>
 	</ul>
 </div>
