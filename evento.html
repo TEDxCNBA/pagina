@@ -16,7 +16,7 @@ permalink: "/evento/"
 			<aside class="col col--12 col__md--3">
 				<h4>Ya abrimos las inscripciones</h4>
 				<p>¿Querés ser parte? Para participar por una entrada para el evento, completa <a href="https://docs.google.com/forms/d/1kTgCnFcA5welsp4dBHHXsxVKfgi57I_i-1pxfeO0fkU/viewform?c=0&w=1">este formulario</a>.</p>
-				<img src="{{ site.url }}{{ site.baseurl }}/assets/evento-foto.jpg/" alt="Foto de la X en el Colegio">
+				<img src="{{ site.url }}{{ site.baseurl }}/assets/evento-foto.jpg" alt="Foto de la X en el Colegio">
 			</aside>
 		</div>
 	</div>
@@ -26,14 +26,14 @@ permalink: "/evento/"
 		<div class="flex flex--center oradores-container">
 			{% for speaker in site.data.speakers limit:1%}
 			<div class="col col--12 col__md--3 orador">
-				<img src="{{ site.url }}{{ site.baseurl }}/assets/fotos-oradores{{ speaker.foto }}" alt="">
+				<img src="{{ site.url }}{{ site.baseurl }}/assets{{ speaker.foto }}" alt="">
 				<h4>{{ speaker.nombre }}</h4>
 				<p>{{ speaker.perfil }}</p>
 			</div>
 			{% endfor %}
 			<!-- Borrar cuando hayan sido presentados todos los oradores -->
 			<div class="col col--12 col__md--3 orador orador-no-anunciado">
-				<img src="{{ site.url }}{{ site.baseurl }}/assets/fotos-oradores/orador-tba.jpg/" alt="">
+				<img src="{{ site.url }}{{ site.baseurl }}/assets/orador-tba.jpg" alt="">
 				<p>Se vienen nuevos oradores. ¡Estate atento a las redes sociales!</p>
 			</div>
 			<!-- Hasta acá -->

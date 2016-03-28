@@ -3,7 +3,7 @@ layout: post
 title: "Dear TEDsters… a note on the first anniversary of my talk"
 date: 2016-03-19 10:54:00 -0300
 categories: TEDTalk community speaker
-image: /assets/post-img/monica-lewinsky.jpg/
+image: /assets/monica-lewinsky.jpg
 ---
 
 One year ago today, at TED2015, Monica Lewinsky gave a powerful talk about bullying, shaming and becoming a more empathetic society. She sends this note to our community on her TED-iversary…
