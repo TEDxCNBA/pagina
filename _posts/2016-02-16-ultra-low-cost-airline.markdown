@@ -3,7 +3,7 @@ layout: post
 title: "An ultra-low-cost online MBA launches today… and more news from TED speakers"
 date: 2016-02-16 10:54:00 -0300
 categories: education entrepreneurship
-image: assets/post-img/shai-reshef.jpg/
+image: /assets/post-img/shai-reshef.jpg/
 ---
 
 Shai Reshef’s nonprofit University of the People — which offers nearly tuition-free, accredited degrees online — today launches its first graduate degree, an MBA program in 12 courses. Although there are no tuition or textbook fees, there is a $200 testing fee per course, which means students can expect to pay $2,400 for their MBA (compare this to the average cost of tuition for an American MBA in 2016: $60,000). As Reshef told us: “In the last year and a half, we experienced tremendous growth. UoPeople grew from 500 enrolled students to over 3,000! We related a large part of the growth to TED — over 20 percent of the new students indicated my TED Talk as the place where they heard about the university.” Applications for the new MBA program open today, March 15, and will be accepted on a rolling basis.
