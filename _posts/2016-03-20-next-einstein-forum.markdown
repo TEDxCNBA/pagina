@@ -3,7 +3,7 @@ layout: post
 title: "The Next Einstein Forum begins"
 date: 2016-03-19 10:54:00 -0300
 categories: event science
-image: /assets/post-img/next-einstein-forum.jpg/
+image: assets/post-img/next-einstein-forum.jpg/
 ---
 
 Why did Albert Einstein have such a unique scientific mind? Because he came from a disadvantaged background, says TED Prize winner Neil Turok.
