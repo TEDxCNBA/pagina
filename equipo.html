@@ -2,3 +2,31 @@
 layout: default
 body-class: equipo
 ---
+
+<div class="container">
+	<div class="flex flex--center equipo-content">
+		<div class="col col--12 col__md--8">
+			<h3>Equipo organizador</h3>
+			<div class="flex">
+				{% for organizer in site.data.organizers %}
+				<div class="col col--12 col__md--6">
+					<div class="organizador-container">
+						<div class="flex organizador-flex">
+							<div class="col col--3 col__md--5"><img src="{{ site.url }}{{ site.baseurl }}/assets/fotos-equipo{{ organizer.foto }}" alt="Foto de {{ speaker.nombre }}"></div>
+							<div class="col col--9 col__md--7"><h5>{{ organizer.nombre }}</h5> <p class="descripcion-organizador">{{ organizer.perfil }}</p></div>
+						</div>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		<aside class="col col--12 col__md--4 agradecimientos">
+			<h4>Agradecemos a:</h4>
+			<ul>
+				{% for supporter in site.data.supporters %}
+				<li>{{ supporter.nombre }}</li>
+				{% endfor %}
+			</ul>
+		</aside>
+	</div>
+</div>

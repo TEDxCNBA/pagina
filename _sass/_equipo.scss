@@ -1,0 +1,27 @@
+.equipo-content {
+	margin: 30px auto;
+
+	h3 {
+		margin: 0 0 $spacing-unit / 2 0;
+		font-weight: 300;
+		font-size: 2em;
+	}
+
+	img {
+		max-width: 100%;
+		border-radius: 50%;
+		margin: $spacing-unit / 3 0;
+	}
+
+	.organizador-flex {
+		align-items: center;
+  		justify-content: center;
+	}
+
+	h5 {
+		font-size: 1em;
+		font-weight: 500;
+		margin: 0 0 $spacing-unit / 4 0;
+	}
+}
+

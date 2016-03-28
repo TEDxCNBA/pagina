@@ -35,6 +35,20 @@ aside {
 	h4 {
 		margin: 0.5em 0;
 	}
+
+	li {
+		font-size: 0.9em;
+		line-height: 1.5;
+		color: $grey-color-dark;
+		margin: 0 0 0.5em;
+
+		a {
+			text-decoration: underline;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
 }
 
 .oradores {

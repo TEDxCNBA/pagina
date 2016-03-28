@@ -1,15 +1,29 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="post-container container">
+	<div class="flex">
+		<div class="col col--12 col__md--9">
+			<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
+			  <header class="post-header">
+			    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+			    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+			  </header>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+			  <div class="post-content" itemprop="articleBody">
+			  <a target="_blank" href="{{ site.url }}{{ site.baseurl }}{{ page.image }}" class="post-main-image"><img src="{{ site.url }}{{ site.baseurl }}{{ page.image }}"></a>
+			    {{ content }}
+			  </div>
 
-</article>
+			</article>		
+		</div>
+
+		<div class="col col--3">
+			<ul class="share-links">
+				<li><a target="_blank" class="button facebook-button button-sm" href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}">Compartir en Facebook</a></li>
+				<li><a target="_blank" class="button twitter-button button-sm" href="https://twitter.com/share?text={{ page.title | replace: ' ', '%20'}}">Compartir en Twitter</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
