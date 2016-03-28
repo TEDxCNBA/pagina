@@ -15,14 +15,14 @@
 	width: 50%;
 	max-width: 240px;
 	display: inline-block;
-	background-image: url("/pagina/assets/color-two-lines.svg");
+	background-image: url("/assets/color-two-lines.svg");
 	background-repeat: no-repeat;
 	background-position: center left;
 	background-size: contain;
 
 	@media (min-width: 375px) {
 		& {
-			background-image: url("/pagina/assets/color-one-line.svg");
+			background-image: url("/assets/color-one-line.svg");
 		}
 	}
 }
