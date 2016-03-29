@@ -40,11 +40,7 @@
   {% if page.url %}
     <meta content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" property="og:url">
   {% endif %}
-  {% if page.image %}
-    <meta content="{{ site.url }}{{ site.baseurl }}{{ page.image }}" property="og:image">
-  {% else %}
-    <meta content="{{ site.url }}{{ site.baseurl }}/assets/evento-foto.jpg" property="og:image">
-  {% endif %}
+  <meta content="{{ site.url }}{{ site.baseurl }}/assets/og-image.jpg" property="og:image">
   {% if page.categories %}
     {% for category in page.categories limit:1 %}
     <meta content="{{ category }}" property="article:section">
