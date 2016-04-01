@@ -24,7 +24,7 @@ permalink: "/evento/"
 	<div class="oradores flex">
 		<h3 class="col col--12">Nuestros oradores</h3>
 		<div class="flex flex--center oradores-container">
-			{% for speaker in site.data.speakers limit:1%}
+			{% for speaker in site.data.speakers %}
 			<div class="col col--12 col__md--3 orador">
 				<img src="{{ site.url }}{{ site.baseurl }}/assets{{ speaker.foto }}" alt="">
 				<h4>{{ speaker.nombre }}</h4>
