@@ -2,29 +2,29 @@
   perfil: Ingeniero Electrónico y ex alumno.
   foto: /fede.jpg
 
-- nombre: Diana Capdevilla
-  perfil: Doctora en Ciencias Químicas y ex alumna.
-  foto: /diana.png
-
-- nombre: Marco Sartorio
-  perfil: Estudiante de economía y ex alumno.
-  foto: /marco.jpg
-
 - nombre: Catalino Solán
   perfil: Carpintero del Colegio hace 25 años.
   foto: /orador-tba.jpg
+
+- nombre: Diana Capdevilla
+  perfil: Doctora en Ciencias Químicas y ex alumna.
+  foto: /diana.png
 
 - nombre: Silvina Marsimian
   perfil: Doctora en Letras y profesora de castellano hace 30 años.
   foto: /orador-tba.jpg
 
-- nombre: Pedro Bekinschtein
-  perfil: Doctor en Ciencias Biológicas y ex alumno.
-  foto: /orador-tba.jpg
+- nombre: Marco Sartorio
+  perfil: Estudiante de economía y ex alumno.
+  foto: /marco.jpg
 
 - nombre: Federico Lorenz
   perfil: Historiador especialista en Malvinas y ex alumno.
   foto: /orador-tba.jpg
+
+- nombre: Pedro Bekinschtein
+  perfil: Doctor en Ciencias Biológicas y ex alumno.
+  foto: /bek.jpg
 
 - nombre: Martín Barrantes
   perfil: Grafitero y psicólogo. Preceptor.
