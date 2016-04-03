@@ -8,8 +8,8 @@ layout: default
 
 			  <header class="post-header">
 			    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-			    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{  post.date | date: '%-d' }} de
-											{% assign m = post.date | date: '%-m' %}
+			    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{  page.date | date: '%-d' }} de
+											{% assign m = page.date | date: '%-m' %}
 											{% case m %}
 												{% when '1' %}enero
 												{% when '2' %}febrero
@@ -25,7 +25,7 @@ layout: default
 												{% when '12' %}diciembre
 											{% endcase %}
 										de
-										{{  post.date | date: '%Y' }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+										{{  page.date | date: '%Y' }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
 			  </header>
 
 			  <div class="post-content" itemprop="articleBody">
