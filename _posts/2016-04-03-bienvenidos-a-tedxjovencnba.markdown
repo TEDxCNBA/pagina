@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bienvenidos a TEDxJoven@CNBA"
-date: 2016-04-03 18:00:00 -0300
+date: 2016-04-03 13:45:00 -0300
 categories: evento equipo
 image: /assets/post-bienvenida.png
 ---
