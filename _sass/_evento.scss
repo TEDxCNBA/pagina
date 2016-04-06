@@ -70,7 +70,7 @@ aside {
 	text-align: center;
 
 	&:hover {
-		cursor: text;
+		cursor: auto;
 		background-color: darken($grey-color-light, 10%);
 	}
 
