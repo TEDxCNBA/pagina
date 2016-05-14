@@ -2,7 +2,7 @@
 layout: post
 title: "Llegó el día TEDx"
 date: 2016-05-14 09:50:00 -0300
-categories: evento equipo
+categories: evento
 image: /assets/diated.jpg
 ---
 
