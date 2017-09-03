@@ -1,7 +1,3 @@
-- nombre: Ari Reznik
-  perfil: Alumno
-  foto: /ari.jpg
-
 - nombre: Belu Ticona
   perfil: Ex alumna
   foto: /belu.jpg
@@ -11,19 +7,15 @@
   foto: /clari.jpg
 
 - nombre: Emma Coso
-  perfil: Alumna
+  perfil: Ex alumna
   foto: /emma.jpg
-
-- nombre: Fran Bade
-  perfil: Alumno
-  foto: /fran.jpg
 
 - nombre: Lu Giovanniello
   perfil: Ex alumna
   foto: /lu.jpg
 
 - nombre: Pau Schatz
-  perfil: Alumna
+  perfil: Ex alumna
   foto: /pau.jpg
 
 - nombre: Yoshi Watanabe
