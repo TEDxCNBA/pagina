@@ -19,7 +19,6 @@ Las charlas TEDx tienen como compartir ideas que inspiren y despierten nuevas pa
 3-No hay restricciones de edad, sexo, género ni cualquier otra. Lo único que cuenta es la idea que quieras transmitir. 
 
 
-Si tenés ganas de participar en el próximo evento, te invitamos a realizar el primer paso e inscribirte para poder ser orador de TEDxCNBA 2018.
 
 ¡Animate a compartir tu idea! <b>Las inscripciones estarán disponibles hasta el 3 de noviembre</b>.
 
