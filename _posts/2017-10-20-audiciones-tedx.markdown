@@ -12,11 +12,11 @@ Las charlas TEDx tienen como compartir ideas que inspiren y despierten nuevas pa
 
 <b>Las ideas a compartir pueden ser de temática libre,</b> solo deben cumplir algunos requisitos básicos:
 
-No se puede promocionar un producto en particular, a sí mismo o ningún tipo de negocio
+1-No se puede promocionar un producto en particular, a sí mismo o ningún tipo de negocio
 
-La charla no puede ser de contenido político o religioso en agenda o que genere algún tipo de polarización entre personasNo se puede promocionar pseudociencia y de todas las afirmaciones de índole científica se debe poder corroborar su veracidad. 
+2-La charla no puede ser de contenido político o religioso en agenda o que genere algún tipo de polarización entre personasNo se puede promocionar pseudociencia y de todas las afirmaciones de índole científica se debe poder corroborar su veracidad. 
 
-No hay restricciones de edad, sexo, género ni cualquier otra. Lo único que cuenta es la idea que quieras transmitir. 
+3-No hay restricciones de edad, sexo, género ni cualquier otra. Lo único que cuenta es la idea que quieras transmitir. 
 
 
 Si tenés ganas de participar en el próximo evento, te invitamos a realizar el primer paso e inscribirte para poder ser orador de TEDxCNBA 2018.
