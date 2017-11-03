@@ -22,6 +22,7 @@ Las charlas TEDx tienen como compartir ideas que inspiren y despierten nuevas pa
 
 ¡Animate a compartir tu idea! <b>Las inscripciones estarán disponibles hasta el 3 de noviembre</b>.
 
-[¡Postulate!](https://goo.gl/forms/Hxclv4bgxbAKOjov2).
+¡Postulate!
+En este [link](https://goo.gl/forms/Hxclv4bgxbAKOjov2).
 
 Si tenés algunda pregunta, no dudes en hacerla en [Facebook](https://www.facebook.com/TEDxJovenCNBA/), [Twitter](https://twitter.com/TEDxJovenCNBA), o por [mail](http://www.tedxcnba.com/contacto/).
