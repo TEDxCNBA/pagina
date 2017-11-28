@@ -8,7 +8,9 @@ image: /assets/convocatoria.png
 
 <i>¡Estamos buscando oradores para el evento TEDxJovenCNBA 2018!</i>
 
-Las charlas TEDx tienen como compartir ideas que inspiren y despierten nuevas pasiones en los otros, y en este evento buscamos que la comunidad del CNBA (estudiantes, graduados, docentes y no docentes) puedan tener la oportunidad de compartir aquello que los haya marcado y crean que puede inspirar a muchos otros.
+<b>¡Reabrimos las inscripciones! Estarán disponibles hasta el 6 de diciembre inclusive.</b>
+
+Las charlas TEDx tienen como objetivo compartir ideas que inspiren y despierten nuevas pasiones en los otros,y en este evento buscamos que la comunidad del Colegio Nacional de Buenos Aires (estudiantes, graduados, docentes y no docentes) puedan tener la oportunidad de compartir aquello que los haya marcado y crean que puede inspirar a otros.
 
 <b>Las ideas a compartir pueden ser de temática libre,</b> solo deben cumplir algunos requisitos básicos:
 
@@ -19,8 +21,7 @@ Las charlas TEDx tienen como compartir ideas que inspiren y despierten nuevas pa
 3-No hay restricciones de edad, sexo, género ni cualquier otra. Lo único que cuenta es la idea que quieras transmitir. 
 
 
-
-¡Animate a compartir tu idea! <b>Las inscripciones estarán disponibles hasta el 3 de noviembre</b>.
+¡Animate a compartir tu idea! 
 
 ¡Postulate!
 
