@@ -34,6 +34,11 @@
 .main-button {
 	@extend .grey-button;
 }
+.red-button {
+	@include button(red);
+	color: white;
+	text-shadow: none;
+}
 
 .facebook-button {
 	@include button(#3B5998);
@@ -43,6 +48,12 @@
 
 .twitter-button {
 	@include button(#55ACEE);
+	color: white;
+	text-shadow: none;
+}
+
+.insta-button {
+	@include button(black);
 	color: white;
 	text-shadow: none;
 }

@@ -1,0 +1,37 @@
+---
+layout: default
+body-class: evento
+permalink: "/evento/"
+---
+<div class="container evento-content">
+	<div class="evento-desc">
+		<div class="flex flex--center">
+			<div class="col col--12 col__md--9">
+				<h3>Así fue TEDxJoven@CNBA 2016</h3>
+				<p>El sábado 14 de mayo tuvimos el honor y la felicidad de llevar a cabo el primer TEDx del Colegio Nacional de Buenos Aires.</p>
+				<p>El evento salió espectacular, y nos sorprendimos con la oportunidad de poder transmitir en vivo las charlas para que todos pudieran disfrutar de las charlas. Podes leer más al respecto de esto en nuestro post <a href="http://www.tedxcnba.com/evento/2016/05/14/llego-el-dia-tedx.html">"Llegó el día TEDx"</a>.</p>
+				<p>Si estuviste la oportunidad de participar y queres revivir el día, buscate en <a href="https://www.facebook.com/media/set/?set=a.1289706721043467.1073741833.1039130186101123&type=1&l=5a5dc1221c">las fotos que subimos a Facebook</a>, ¡etiquetate y compartilas!</p>
+				<p>Si no salsite sorteado esta vez y querés ver las charlas, las vamos a estar subiendo a la brevedad a nuestras redes sociales para que todos las podemos disfrutar.</p>
+				<p>¡Esperamos poder repetir este evento el año que viene con la ayuda de la comunidad educativa del Colegio Nacional de Buenos Aires!</p>
+			</div>
+			<aside class="col col--12 col__md--3">
+				<h4>Seguinos en nuestras redes sociales</h4>
+				<p>Para mantenerte al tanto de las noticias importantes de TEDxJoven@CNBA asegurate de seguirnos en <a href="https://www.facebook.com/TEDxJovenCNBA/">Facebook</a> y en <a href="https://twitter.com/tedxjovencnba">Twitter</a>.</p>
+				<img src="{{ site.url }}{{ site.baseurl }}/assets/evento-foto.jpg" alt="Foto de la X en el Colegio">
+			</aside>
+		</div>
+	</div>
+
+	<div class="oradores flex">
+		<h3 class="col col--12">Nuestros oradores</h3>
+		<div class="flex flex--center oradores-container">
+			{% for speaker in site.data.ed2016.speakers %}
+			<div class="col col--12 col__md--3 orador">
+				<img src="{{ site.url }}{{ site.baseurl }}/assets{{ speaker.foto }}" alt="">
+				<h4>{{ speaker.nombre }}</h4>
+				<p>{{ speaker.perfil }}</p>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
