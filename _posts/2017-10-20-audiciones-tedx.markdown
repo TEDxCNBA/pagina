@@ -3,7 +3,7 @@ layout: post
 title: "Convocatoria a Oradores"
 date: 2017-10-20 13:45:00 -0300
 categories: convocatoria oradores
-image: /assets/convocatoria.png
+image: /assets/Convocatoria.png
 ---
 
 <i>¡Estamos buscando oradores para el evento TEDxJovenCNBA 2018!</i>
