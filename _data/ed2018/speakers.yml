@@ -18,10 +18,6 @@
   perfil: Estudiante. A la hora de trabajar tiene más certezas que dudas, el resto de su vida es inversamente proporcional. Fan de Star Wars, el mate y el helado.
   foto: /lucia.png
 
-- nombre: Carolina Bardelli y María Lopez Snaider
-  perfil: Caro es estudiante de Comunación Social. Su equipo es Revista Chocha. Le gusta googlear y aprender a hacer cosas. Maru es editora en Revista Chocha. Eventualmente será licenciada en Comunicación Social, pero su sueño es ser una femininja todoterreno. Revista Chocha es una publicación digital de mujeres jóvenes que van en el asiento del conductor.
-  foto: /chocha.jpg
-
 - nombre: Aldana García Tarsia
   perfil: Con los pies sobre la tierra, pero lista para despegar. Podría escuchar Calle 13 eternamente. Hincha de huracán y futura geógrafa. Un abrazo soluciona (casi) todo.
   foto: /aldana.jpg
@@ -29,3 +25,7 @@
 - nombre: Marcelo Blanco
   perfil: Apasionado por los desafíos. Le encanta comprender el funcionamiento de los sistemas. Fan de la tecnología y los deportes extremos.
   foto: /marcelo.png
+
+- nombre: Carolina Bardelli y María Lopez Snaider
+  perfil: Caro es estudiante de Comunación Social. Su equipo es Revista Chocha. Le gusta googlear y aprender a hacer cosas. Maru es editora en Revista Chocha. Eventualmente será licenciada en Comunicación Social, pero su sueño es ser una femininja todoterreno. Revista Chocha es una publicación digital de mujeres jóvenes que van en el asiento del conductor.
+  foto: /chocha.jpg
